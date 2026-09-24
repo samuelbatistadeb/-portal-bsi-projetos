@@ -1,0 +1,18 @@
+:root {
+    --azul:      #1A3A5C;   /* cor principal — cabeçalho, botões, títulos */   
+    --azul2:     #2563A8;   /* variação média — hover, destaques */   
+    --azul3:     #5B9BD5;   /* variação clara — bordas, ícones */   
+    --dourado:   #C8922A;   /* cor de destaque — âmbar, CTA */   
+    --fundo:     #F5F7FA;   /* fundo da página */ 
+    --tinta:     #1A1A2E;   /* cor do texto principal */   
+    --cinza:     #5A6270;   /* texto secundário, labels */   
+    --linha:     #D0D7E3;   /* bordas e separadores */   
+    --branco:    #FFFFFF; 
+}
+*/ body {   
+    font-family: "Inter", Arial, sans-serif;   
+    font-size: 16px;   
+    line-height: 1.6;   
+    color: var(--tinta);   
+    background-color: var(--fundo); 
+}
