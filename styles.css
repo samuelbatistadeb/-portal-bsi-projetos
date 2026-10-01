@@ -10,6 +10,10 @@
     --branco:    #FFFFFF; 
 }
 
+* { 
+    box-sizing: border-box; margin: 0; padding: 0; 
+} 
+
 body {   
     font-family: "Inter", Arial, sans-serif;   
     font-size: 16px;   
@@ -154,7 +158,6 @@ aside.destaques {
     border-left: 4px solid var(--dourado);
     border-radius: 10px;
 
-    font-family: "Inter", Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6;
     color: var(--tinta);
