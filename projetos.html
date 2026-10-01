@@ -9,82 +9,86 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<header id="cabecalho">
-        <nav id="menu-cabecalho">
-            <h1 id="nome-cabecalho">Portal da Turma</h1>
-            <ul>    
-                <li><a href="index.html" class="link-nav">Home</a></li>
-                <li><a href="turma.html" class="link-nav">Turma</a></li>
-                <li><a href="projetos.html" class="link-nav">Projeto</a></li>
-                <li><a href="campus.html" class="link-nav">Campus</a></li>
-                <li><a href="tecnologias.html" class="link-nav">Tecnologia</a></li>
-                <li><a href="contato.html" class="link-nav">Contato</a></li>
-            </ul>
-        </nav>
+    <header id="cabecalho">
+      <nav id="menu-principal" aria-label="Navegação principal">
+        <a href="index.html" id="nome-cabecalho">Portal da Turma</a>
+        <ul>
+          <li>
+            <a href="index.html" class="link-nav ativo" aria-current="page"
+              >Home</a
+            >
+          </li>
+          <li><a href="turma.html" class="link-nav">Turma</a></li>
+          <li><a href="projetos.html" class="link-nav">Projetos</a></li>
+          <li><a href="campus.html" class="link-nav">Campus</a></li>
+          <li><a href="tecnologias.html" class="link-nav">Tecnologias</a></li>
+          <li><a href="contato.html" class="link-nav">Contato</a></li>
+        </ul>
+      </nav>
     </header>
 
-     <section id="Introducao" >
+    <section id="Introducao" >
       <h2>
         Demonstrar o desenvolvimento de projetos e trablhos realizados pela turma de sistemas do 4° periodo no ano 2026. 
       </h2>
     </section>
 
     <section id="projetos">
-  <div class="carrossel">
+        <div class="carrossel">
 
-    <article class="card-projeto" id="projeto1">
-      <img src="img/projeto1.png" alt="Print do Portal da Turma">
-      <h3>Portal da Turma, Feito pelos alunos de sistemas</h3>
-      <p>Site com várias páginas. Conceitos aplicados: estrutura HTML, semântica e CSS.</p>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-      </ul>
-      <a href="https://github.com/usuario/portal-turma">Ver repositório</a>
-    </article>
+            <article class="card-projeto" id="projeto1">
+            <img src="img/projeto1.png" alt="Print do Portal da Turma">
+            <h3>Portal da Turma, Feito pelos alunos de sistemas</h3>
+            <p>Site com várias páginas. Conceitos aplicados: estrutura HTML, semântica e CSS.</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <a href="https://github.com/usuario/portal-turma">Ver repositório</a>
+            </article>
 
-    <article class="card-projeto" id="projeto2">
-      <img src="img/projeto2.png" alt="Print do Trabalho de Redes e IHC">
-      <h3>Trabalho de Redes e IHC</h3>
-      <p>Descrição e conceitos aplicados.</p>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-      </ul>
-      <a href="https://github.com/usuario/redes-ihc">Ver repositório</a>
-    </article>
+            <article class="card-projeto" id="projeto2">
+            <img src="img/projeto2.png" alt="Print do Trabalho de Redes e IHC">
+            <h3>Trabalho de Redes e IHC</h3>
+            <p>Descrição e conceitos aplicados.</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <a href="https://github.com/usuario/redes-ihc">Ver repositório</a>
+            </article>
 
-    <article class="card-projeto" id="projeto3">
-      <img src="img/projeto3.png" alt="Print do Projeto EAS">
-      <h3>Projeto EAS</h3>
-      <p>Descrição e conceitos aplicados.</p>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-      </ul>
-      <a href="https://github.com/usuario/projeto-eas">Ver repositório</a>
-    </article>
+            <article class="card-projeto" id="projeto3">
+            <img src="img/projeto3.png" alt="Print do Projeto EAS">
+            <h3>Projeto EAS</h3>
+            <p>Descrição e conceitos aplicados.</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <a href="https://github.com/usuario/projeto-eas">Ver repositório</a>
+            </article>
 
-    <article class="card-projeto" id="projeto4">
-      <img src="img/projeto4.png" alt="Print do projeto 4">
-      <h3>Nome do Projeto</h3>
-      <p>Descrição e conceitos aplicados.</p>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-      </ul>
-      <a href="https://github.com/usuario/projeto4">Ver repositório</a>
-    </article>
+            <article class="card-projeto" id="projeto4">
+            <img src="img/projeto4.png" alt="Print do projeto 4">
+            <h3>Nome do Projeto</h3>
+            <p>Descrição e conceitos aplicados.</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <a href="https://github.com/usuario/projeto4">Ver repositório</a>
+            </article>
 
-  </div>
+        </div>
 
-  <nav class="carrossel-nav">
-    <a href="#projeto1">1</a>
-    <a href="#projeto2">2</a>
-    <a href="#projeto3">3</a>
-    <a href="#projeto4">4</a>
-  </nav>
-</section>
+        <nav class="carrossel-nav">
+            <a href="#projeto1">1</a>
+            <a href="#projeto2">2</a>
+            <a href="#projeto3">3</a>
+            <a href="#projeto4">4</a>
+        </nav>
+    </section>
             
     <section class="secao">
         <table class="linha-tempo">
@@ -144,5 +148,21 @@
                 </p>
             </aside>
     </section>
+
+    <footer id="rodape">
+      <p>Portal da Turma - BSI 4º período, IF Goiano - Campus Ceres</p>
+      <p>
+        Desenvolvido pelo
+        <strong>
+          4° Período de 2026 do curso de Bacharelado em Sistemas de
+          Informação</strong
+        >
+        - Programação Web I - 2026/2
+      </p>
+      <p>
+        Página feita pelos estudantes: Estudante 1, Estudante 2, Estudante 3 e Estudante 4
+      </p>
+      <a href="index.html" class="link-rodape">Voltar à Home</a>
+    </footer>
 </body>
 </html>

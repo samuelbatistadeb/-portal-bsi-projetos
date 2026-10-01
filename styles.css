@@ -18,6 +18,44 @@ body {
     background-color: var(--fundo); 
 }
 
+#cabecalho {
+  background-color: var(--azul);
+  padding: 10px 10px;
+  width: 100%;
+}
+
+#menu-principal ul {
+  margin: 10px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+#nome-cabecalho {
+  color: var(--fundo);
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.link-nav {
+  color: var(--linha);
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.link-nav:hover {
+  color: var(--dourado); 
+  text-decoration: underline;
+}
+
+.link-nav.ativo {
+  color: var(--dourado);
+}
+
 .linha-tempo {
     width: 100%;
     border-collapse: collapse;
@@ -146,4 +184,26 @@ aside.destaques strong {
     margin-bottom: 4px;
     color: var(--azul);
     font-weight: 600;
+}
+
+#rodape {
+  background-color: var(--azul);
+  color: var(--fundo);
+  text-align: center;
+  padding: 20px 15px;
+}
+
+#rodape strong {
+  color: var(--dourado);
+}
+
+.link-rodape {
+  color: var(--azul3);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link-rodape:hover {
+  color: var(--dourado);
+  text-decoration: underline;
 }
