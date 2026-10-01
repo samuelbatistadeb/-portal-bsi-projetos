@@ -68,3 +68,38 @@
 .destaques p {
     margin-bottom: 0.8rem;
 }
+
+/* 
+ Janulha css
+  */
+
+.carrossel {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding-bottom: 1rem;
+}
+
+.card-projeto {
+   
+    flex: 0 0 calc((100% - 3rem) / 3);
+    scroll-snap-align: start;
+    box-sizing: border-box;
+    border-left: 5px solid var(--azul3);
+    background: var(--branco);
+    padding: 1.5rem 2rem;
+}
+
+.card-projeto:hover {
+    background: #EAF2FB;
+}
+
+.card-projeto img {
+    width: 110%;
+    height: 220px;  
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
